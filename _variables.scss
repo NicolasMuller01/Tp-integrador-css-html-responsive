@@ -1,0 +1,26 @@
+$colorButton:#7de2d1;
+$colorLetters:#131515;
+
+@mixin btn{
+    background-color: $colorButton;
+    height: 3.125rem;
+    width: 9.375rem;
+    border-radius: 10px;
+    border: none;
+    box-shadow:5px 5px 10px rgba(0,0,0,0.1);
+    color:$colorLetters;
+    border-bottom: 2px solid $colorLetters;
+    cursor:pointer;
+}
+
+@mixin btnHover{
+    background-color: $colorButton;
+    height: 3.125rem;
+    width: 9.375rem;
+    border-radius: 10px;
+    border: none;
+    box-shadow:5px 5px 10px rgba(0,0,0,0.1);
+    color:$colorLetters;
+    border-bottom: 4px solid $colorLetters;
+    cursor:pointer;
+}

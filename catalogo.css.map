@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,yBAAyB,CAAA;EACrB,gBAAgB,ECHP,OAAO;EDIhB,KAAK,EAAE,IAAI;CACd;;AAED,AAAA,yBAAyB,CAAA;EACrB,SAAS,EAAE,QAAQ;EACnB,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,IAAI;CAgBf;;AAnBD,AAKI,yBALqB,CAKrB,uCAAuC,CAAA;EACnC,OAAO,EAAE,IAAI;EACb,kBAAkB,EAAE,SAAS;EAC7B,qBAAqB,EAAE,cAAc;EACrC,GAAG,EAAE,OAAO;CASf;;AAlBL,AAWQ,yBAXiB,CAKrB,uCAAuC,CAMnC,GAAG,CAAA;EACC,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,QAAQ;EACf,MAAM,EAAE,IAAI;CACf",
+    "sources": [
+        "catalogo.scss",
+        "_variables.scss"
+    ],
+    "names": [],
+    "file": "catalogo.css"
+}

@@ -1,0 +1,98 @@
+body {
+  background-color: #7de2d1;
+  display: block;
+}
+
+.contenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50em;
+  height: 37.5em;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  margin: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.contenedor .login-contenedor-imagen {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contenedor .login-contenedor-imagen img {
+  width: 20em;
+}
+
+.contenedor .login-contenedor-texto {
+  width: 50%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contenedor .login-contenedor-texto input {
+  width: 6.25em;
+  margin: 5px;
+  padding: 5px;
+}
+
+.contenedor .login-contenedor-texto button {
+  background-color: #7de2d1;
+  height: 3.125rem;
+  width: 9.375rem;
+  border-radius: 10px;
+  border: none;
+  -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  color: #131515;
+  border-bottom: 2px solid #131515;
+  cursor: pointer;
+}
+
+@media (max-width: 800px) {
+  body {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 450px) {
+  body {
+    font-size: 7px;
+  }
+  .contenedor .login-contenedor-imagen {
+    display: none;
+  }
+}
+/*# sourceMappingURL=styleLogin.css.map */

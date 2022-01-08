@@ -1,0 +1,66 @@
+@import '_variables.scss';
+
+.main_catalogo-background{
+    background-color: $colorButton;
+    width: 100%;
+}
+
+.main_catalogo-contenedor{
+    grid-area: catalogo;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    padding-top: 250px;
+    flex-direction: column;
+    text-align: center;
+    .main_catalogo-titulo{
+        h2{
+            font-size: 3rem;
+            color:$colorLetters;
+        }
+    }
+    .main_catalogo-contenedor-personalizado{
+        display: grid;
+        grid-template-rows:auto;
+        grid-template-columns: repeat(4, 18.75rem);
+        grid-gap: 1.875rem;
+        object-fit: cover;
+        padding-bottom: 250px;
+        justify-content:center;
+        align-content:center;
+    
+        img{
+            height: auto;
+            width: 18.75rem;
+            align-self: center;
+            justify-self: center;
+            box-shadow:5px 5px 10px rgba(0,0,0,0.1);
+            transition: 0.2s ease;
+        }
+
+        img:hover{
+            transform: scale(1.1);
+            cursor: pointer;
+            box-shadow:10px 10px 20px rgba(0,0,0,0.2);
+        }
+
+    } 
+}
+
+@media (min-width: 500px) and (max-width:1100px) { 
+    .main_catalogo-contenedor{
+        width: 100%;
+    .main_catalogo-contenedor-personalizado{
+        grid-template-columns: repeat(2, 18.75rem)
+        }
+    }
+}
+
+@media (max-width: 499px) {
+    .main_catalogo-contenedor{
+        width: 100%;
+    .main_catalogo-contenedor-personalizado{
+        grid-template-columns: repeat(1, 18.75rem)
+        }
+    }
+} 

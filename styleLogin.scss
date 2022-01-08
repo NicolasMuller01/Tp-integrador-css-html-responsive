@@ -1,0 +1,71 @@
+@import "_variables.scss";
+
+body{
+    background-color: $colorButton;
+    display: block;
+}
+
+.contenedor{
+    display: flex;
+    width:50em;
+    height:37.5em;
+    flex-direction: row-reverse;
+    margin:auto;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+
+    .login-contenedor-imagen{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+
+        img{
+            width:20em;
+        }
+    }
+
+    .login-contenedor-texto{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        input{
+            width: 6.25em;
+            margin: 5px;
+            padding: 5px;
+        }
+        button{
+            @include btn;
+        }
+    }
+
+}
+
+@media (max-width:800px){
+    body{
+        font-size:12px ;
+    }
+}
+
+@media (max-width:600px){
+    body{
+        font-size:9px ;
+    }
+}
+
+
+
+@media (max-width:450px){
+body{
+    font-size:7px ;
+}
+.contenedor{
+    .login-contenedor-imagen{
+        display: none;
+    }
+}
+}

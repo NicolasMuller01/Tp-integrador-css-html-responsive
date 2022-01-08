@@ -1,0 +1,27 @@
+.main_catalogo-background {
+  background-color: #7de2d1;
+  width: 100%;
+}
+
+.main_catalogo-contenedor {
+  grid-area: catalogo;
+  width: 80%;
+  margin: auto;
+}
+
+.main_catalogo-contenedor .main_catalogo-contenedor-personalizado {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 15.625rem;
+      grid-template-rows: 15.625rem;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+}
+
+.main_catalogo-contenedor .main_catalogo-contenedor-personalizado img {
+  height: auto;
+  width: 18.75rem;
+  margin: auto;
+}
+/*# sourceMappingURL=catalogo.css.map */
